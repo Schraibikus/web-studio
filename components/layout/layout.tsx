@@ -5,7 +5,7 @@ import styles from "./layout.module.css";
 import Link from "next/link";
 import clsx from "clsx";
 import { useRouter } from "next/router";
-import { FOOTER_EMAIL } from "@/const";
+// import { FOOTER_EMAIL } from "@/const";
 
 export default function Layout({ children }: PropsWithChildren) {
   const router = useRouter();
