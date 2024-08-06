@@ -1,0 +1,29 @@
+.container {
+  padding: 0 10px;
+}
+
+.list {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  margin: 0;
+}
+
+.item {
+  display: block;
+  list-style: none;
+}
+
+.disabled {
+  pointer-events: none;
+}
+
+.item a {
+  color: gray;
+  padding-top: 15px;
+  display: block;
+}
+
+.item a:hover {
+  color: black;
+}

@@ -1,0 +1,33 @@
+.container h2 {
+	margin-top: 40px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.list {
+	padding: 20px;
+}
+
+.item {
+	margin-bottom: 40px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #f1576b;
+}
+
+.content {
+	display: flex;
+}
+
+.image {
+	max-width: 50%;
+	margin-right: 20px;
+	height: auto;
+}
+
+.item h3 {
+	margin-top: 0;
+}
+
+.item:last-child {
+	border: none;
+}
