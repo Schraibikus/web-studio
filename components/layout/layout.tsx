@@ -5,6 +5,7 @@ import styles from "./layout.module.css";
 import Link from "next/link";
 import clsx from "clsx";
 import { useRouter } from "next/router";
+import { FOOTER_EMAIL } from "@/const";
 
 export default function Layout({ children }: PropsWithChildren) {
   const router = useRouter();
@@ -30,7 +31,10 @@ export default function Layout({ children }: PropsWithChildren) {
           <Navigation />
         </header>
         <main className={styles.main}>{children}</main>
-        <footer className={styles.footer}>&copy; 2024 Web studio</footer>
+        <footer className={styles.footer}>
+          &copy; 2024 Web studio
+          <Link href={`mailto:${FOOTER_EMAIL}`}>{FOOTER_EMAIL}</Link>
+        </footer>
       </div>
     </>
   );
